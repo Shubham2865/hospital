@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title></title>
+    <style>
+        body {
+            font-size: 14px;
+            background: white;
+        }
+
+        .container {
+            background: white;
+            width: 500px;
+            padding: 25px;
+            margin: 50px auto 0;
+            border-top: 5px solid green;
+            box-shadow: 0 0 7px;
+        }
+
+        .container h1 {
+            font-size: 24px;
+            line-height: 24px;
+            padding: 30px;
+            text-align: center;
+            color: green;
+        }
+
+        .input {
+            /* width: 90px;
+            position: relative;
+            margin: 20px auto;  */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <div class="containerinput">
+            <form>
+                <table>
+                    <div class="input">
+                        Patient Name:<input type="text" placeholder="First Name">
+                        <span>
+                            last Name:<input type="text" placeholder="Last Name">
+                        </span>
+                    </div>
+                    <div class="input">
+                        contact Number:<input type="text" placeholder="contact Number">
+                    </div>
+                    <div class="input">
+                        <lable class="name"> Gender: </lable>
+                        <select type="multiple">
+                            <option> -select- </option>
+                            <option> Male </option>
+                            <option> Female </option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <lable class="Name"> X-Ray: </lable>
+                        <select name="multiple">
+                            <option> -select- </option>
+                            <option> Chest X-Ray </option>
+                            <option> Hand X-Ray </option>
+                            <option> Neck X-Ray </option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        Appointment Date:<input type="text" placeholder="Start Date" class="name">
+                    </div>
+                    <div class="input">
+                        Email:<input type="text" placeholder="Enter Email" class="name">
+                    </div>
+                    <div class="input">
+                        Password:<input type="password" placeholder="Enter password" class="name" />
+                    </div>
+                    <div class="input">
+                        Confirm Password:<input type="password" placeholder="Enter password" class="name" />
+                    </div>
+                    <div class="input">
+                        <input type="submit" value="Save">
+                        <input type="reset" Name="Clear Form">
+                    </div>
+                    </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

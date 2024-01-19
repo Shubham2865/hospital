@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/716ce3293a.js" crossorigin="anonymous"></script>
+    
+    <style>
+       
+        body {
+            background-color: rgb(220, 223, 238);
+            
+        }
+
+        .container {
+            width: 380px;
+            height: 660px;
+            background-color: rgb(247, 235, 235);
+            margin-left: 38%; 
+            margin-top: 47px;
+            border-top: 5px solid rgb(11, 78, 78);
+            box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 33px;
+            /* padding: 10px; */
+            color: rgb(9, 63, 63);
+        }
+
+        .fname {
+            width: 120px;
+            height: 26px;
+            margin-top: 22px;
+        }
+
+        .lname {
+            width: 130px;
+            height: 26px;
+            margin-top: 22px;
+        }
+
+        .input {
+            display: flex;
+            margin-left: 22px;
+        }
+
+        .in {
+            width: 308px;
+            height: 31px;
+            margin-top: 22px;
+        }
+
+        .input .inpt {
+            width: 300px;
+            height: 26px;
+            margin-top: 22px;
+        }
+
+        /* .fnm {
+            display: flex;
+            margin-left: 23px;
+            margin-top: 22px;
+        } */
+
+        .input i {
+            padding: 6px;
+            border: 1px solid gray;
+            height: 18px;
+            margin-top: 22px;
+            border-right: none;
+        }
+
+        .gender {
+            margin-top: 22px;
+            font-size: 20px;
+            margin-right: 142px;
+        }
+
+        button {
+            width: 336px;
+            height: 33px;
+            border: none;
+            color: white;
+            background-color: rgb(11, 78, 78);
+            font-size: 20px;
+            margin-top: 22px;
+        }
+
+        button:hover {
+            background-color: transparent;
+            color: black;
+            border: 2px solid black;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<!-- ********************************************************************************************** -->
+
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+
+        <div class="input">
+            <i class="fa-solid fa-user"></i><input type="text" class="fname" placeholder="First Name">
+            &nbsp; &nbsp; &nbsp;  
+            <i class="fa-solid fa-user"></i> <input type="text" class="lname" placeholder="Last Name">
+        </div>
+
+        <div class="input">
+            <i class="fa-solid fa-phone"></i><input class="inpt" type="text" class="in" placeholder="Contact Number">
+        </div>
+
+        <div class="gender">
+            <input type="radio" name="gender">Male<input type="radio" name="gender">Female
+        </div>
+
+        <div class="input">
+            <i class="fa-solid fa-arrow-right"></i>
+            <select name="multiple" class="in">
+
+                <option> X-Ray Type </option>
+                <option> Chest X-Ray </option>
+                <option> Hand X-Ray </option>
+                <option> Neck X-Ray </option>
+            </select>
+        </div>
+
+        <div class="input">
+            <i class="fa-solid fa-calendar"></i><input class="inpt" type="date" placeholder="Date">
+        </div>
+
+        <div class="input">
+            <i class="fa-solid fa-envelope"></i><input class="inpt" type="text" placeholder="Enter Email">
+        </div>
+
+        <div class="input">
+            <i class="fa-solid fa-lock"></i><input class="inpt" type="password" placeholder="Enter password">
+        </div>
+
+        <div class="input">
+            <i class="fa-solid fa-lock"></i><input class="inpt" type="password" placeholder="Confirm password">
+        </div>
+
+        <button>Save</button>
+        <a href="file:///C:/vighnharta%20project/index.html#Home">
+            <button>Home Page</button>
+        </a>
+      
+
+    </div>
+</body>
+
+</html>
